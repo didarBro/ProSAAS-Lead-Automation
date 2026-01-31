@@ -7,8 +7,8 @@ from urllib.parse import urljoin, urlparse
 from tqdm import tqdm  # for progress bar
 
 # ================= CONFIG =================
-INPUT_FILE = "Insurance_companies_in_United_States_of_America_220_records.csv"
-OUTPUT_FILE = "insurance_company_mail.csv"
+INPUT_FILE = "Real_estate_companies_220_records.csv"
+OUTPUT_FILE = "Real_estate_companies_mail.csv"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 MAX_SITE_TIME = 300          # Max 5 minutes per website
 EXTRA_PAGES_LIMIT = 3        # Limit contact/about pages to 3
